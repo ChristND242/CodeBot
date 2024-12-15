@@ -4,7 +4,8 @@ import streamlit as st
 import locale
 
 # Configure locale for language support
-locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+os.environ['LC_ALL'] = 'en_US.UTF-8'
+os.environ['LANG'] = 'en_US.UTF-8'
 
 # Configuration for Streamlit page - Must be called first
 # st.set_page_config(
