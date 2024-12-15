@@ -1,6 +1,6 @@
 
 
-```
+
 # CodeBot - Your Bilingual Programming Learning Assistant
 
 ---
